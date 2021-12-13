@@ -1,0 +1,104 @@
+$mobile-device: 650x;
+$tablet-device: 900px;
+$desktop-device: 1250px;
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.btn{
+    padding: 1rem 1.5rem;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    a{
+        text-decoration: none;
+        font-weight: 800;
+    }
+}
+
+.header{
+    background: url('../images/bg-pattern-intro-mobile.svg'), linear-gradient(#fb826d, #dd3a45);
+    background-position: center center;
+    background-size: 300%;
+    background-repeat: no-repeat;
+    border-radius: 0 0 0 100px;
+    padding-bottom: 5rem;
+    color: #fff;
+    .navbar{
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .header-content{
+        text-align: center;
+        h1{
+            padding: 1.5rem 0;       
+        }
+    }
+
+    .header-buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 75%;
+        margin: 4rem auto;
+        .start-free{
+            a{
+                color: #ff515c;
+            }
+        }
+        .learn-more{
+            a{
+                color: #fff;
+            }
+            background-color: transparent;
+            border: 1px solid #fff;
+        }
+    }
+}
+
+.designed-container{
+    padding: 3rem 0;
+    text-align: center;
+    .designed-content-container{
+        padding: 2rem 0;
+        .designed-img{
+            width: 100%;
+            margin: 0 auto;
+            padding: 2rem 0;
+            img{
+                width: 100%;
+            }
+        }
+        .designed-content{
+            h2{
+                padding: 2rem 0;
+            }
+        }
+    }
+}
+
+.state-of-art-container{
+    background: url('../images/illustration-phones.svg');
+    background-repeat: no-repeat;
+    height: 50rem;
+}
